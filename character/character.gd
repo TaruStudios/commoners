@@ -1,9 +1,20 @@
 class_name Character
 extends CharacterBody2D
 
+# Using rotation values for facing
+enum Facing {
+	UP = 270,
+	RIGHT = 0,
+	DOWN = 90,
+	LEFT = 180,
+}
+
 @export_group("Config")
 @export var use_move_and_slide: bool = true
 @export var default_gravity: float = 980.0
+
+@export var facing: Facing = Facing.RIGHT
+
 var gravity: Callable = func(): return default_gravity
 
 var movement_lock: MovementAxis = MovementAxis.UNKNOWN

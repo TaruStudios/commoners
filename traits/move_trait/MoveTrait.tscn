@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3lqxdil0pf60"]
+
+[ext_resource type="Script" uid="uid://drukm1em6dfur" path="res://addons/commoners/traits/move_trait/move_trait.gd" id="1_efkfk"]
+
+[node name="MoveTrait" type="Node2D"]
+script = ExtResource("1_efkfk")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://durqivr30enpe"]
+
+[ext_resource type="Script" uid="uid://i84qemga8a3v" path="res://addons/commoners/traits/dash_trait/dash_trait.gd" id="1_bik7f"]
+
+[node name="DashTrait" type="Node2D"]
+script = ExtResource("1_bik7f")
